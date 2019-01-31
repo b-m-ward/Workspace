@@ -1,5 +1,5 @@
 eval `ssh-agent.exe`
-ssh-add /c/users/bward/.ssh/id_rsa.txt
+ssh-add
 
 #shorthand aliases
 alias gs='git status'
