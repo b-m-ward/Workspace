@@ -11,3 +11,15 @@ SELECT execquery.last_execution_time AS [Date Time], execsql.text AS [Script] FR
 CROSS APPLY sys.dm_exec_sql_text(execquery.sql_handle) AS execsql
 ORDER BY execquery.last_execution_time DESC
 ```
+
+```
+SELECT * 
+FROM INFORMATION_SCHEMA.VIEWS
+WHERE VIEW_DEFINITION LIKE '%colname%'
+```
+
+```
+SELECT Name
+FROM sys.procedures
+WHERE Object_definition(object_id) like '%colname%'
+```
