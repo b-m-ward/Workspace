@@ -1,3 +1,5 @@
+# don't forget `pwsh.exe -ExecutionPolicy Bypass` if needed
+
 $zipFolder = {path}
 
 $zipFiles = Get-ChildItem $zipFolder -Filter *.zip
