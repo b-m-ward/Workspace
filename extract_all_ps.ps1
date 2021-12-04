@@ -1,4 +1,4 @@
-﻿$zipFolder = 'C:\Users\bbmmw\Desktop\music'
+$zipFolder = {path}
 
 $zipFiles = Get-ChildItem $zipFolder -Filter *.zip
 
