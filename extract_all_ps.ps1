@@ -1,4 +1,5 @@
-# don't forget `pwsh.exe -ExecutionPolicy Bypass` if needed
+# don't forget `powershell.exe -ExecutionPolicy Bypass` if needed, ran as admin
+# or Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass
 
 $zipFolder = {path}
 
