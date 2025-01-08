@@ -1,3 +1,5 @@
+# put all the zip files you want to extract in the $zipFolder path
+# each zip file will be extracted into a dir with the same name
 # don't forget `powershell.exe -ExecutionPolicy Bypass` if needed, ran as admin
 # or Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass
 
